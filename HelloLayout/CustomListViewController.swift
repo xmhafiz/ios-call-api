@@ -45,7 +45,7 @@ class CustomListViewController: UIViewController, UITableViewDataSource, UITable
     }
     
     func fetch() {
-        Alamofire.request(Constant.apiURL + "users").responseJSON { response in
+        Alamofire.request("https://api.github.com/users").responseJSON { response in
             
             switch response.result {
             case .success:
