@@ -91,6 +91,8 @@ class CustomListViewController: UIViewController, UITableViewDataSource, UITable
         
         let urlStr = user["avatar_url"] as! String
         let url = URL(string: urlStr)
+        cell.userImageView.setShowActivityIndicator(true)
+        cell.userImageView.setIndicatorStyle(.whiteLarge)
         cell.userImageView.sd_setImage(with: url, placeholderImage: UIImage(named: "octat"))
         
         cell.descriptionLabel.text = user["repos_url"] as? String

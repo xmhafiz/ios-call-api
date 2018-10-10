@@ -14,6 +14,6 @@ struct Constant {
 }
 
 struct UserDefaultKeys {
-    static let name = "KeyName""
+    static let name = "KeyName"
     static let lang = "KeyLang"
 }
