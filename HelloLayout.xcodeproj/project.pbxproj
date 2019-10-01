@@ -249,18 +249,21 @@
 				TargetAttributes = {
 					8663BAD31EE3961C001BE9C8 = {
 						CreatedOnToolsVersion = 8.3.2;
-						DevelopmentTeam = UTAKMP8X5D;
+						DevelopmentTeam = 7YKPZF3MP5;
+						LastSwiftMigration = 1000;
 						ProvisioningStyle = Automatic;
 					};
 					8663BAE71EE3961C001BE9C8 = {
 						CreatedOnToolsVersion = 8.3.2;
-						DevelopmentTeam = UTAKMP8X5D;
+						DevelopmentTeam = 7YKPZF3MP5;
+						LastSwiftMigration = 1000;
 						ProvisioningStyle = Automatic;
 						TestTargetID = 8663BAD31EE3961C001BE9C8;
 					};
 					8663BAF21EE3961C001BE9C8 = {
 						CreatedOnToolsVersion = 8.3.2;
-						DevelopmentTeam = UTAKMP8X5D;
+						DevelopmentTeam = 7YKPZF3MP5;
+						LastSwiftMigration = 1000;
 						ProvisioningStyle = Automatic;
 						TestTargetID = 8663BAD31EE3961C001BE9C8;
 					};
@@ -356,7 +359,7 @@
 			files = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-HelloLayout/Pods-HelloLayout-frameworks.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-HelloLayout/Pods-HelloLayout-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
 				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
 			);
@@ -367,7 +370,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HelloLayout/Pods-HelloLayout-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HelloLayout/Pods-HelloLayout-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		FAA969F5B2653F640E73DDF2 /* [CP] Check Pods Manifest.lock */ = {
@@ -555,12 +558,13 @@
 			baseConfigurationReference = 337B03BC9011D654109F4D8F /* Pods-HelloLayout.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = UTAKMP8X5D;
+				DEVELOPMENT_TEAM = 7YKPZF3MP5;
 				INFOPLIST_FILE = HelloLayout/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = my.hafiz.HelloLayout;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.2;
 			};
 			name = Debug;
 		};
@@ -569,12 +573,13 @@
 			baseConfigurationReference = 0D42E199286F49A1C99EB6BD /* Pods-HelloLayout.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = UTAKMP8X5D;
+				DEVELOPMENT_TEAM = 7YKPZF3MP5;
 				INFOPLIST_FILE = HelloLayout/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = my.hafiz.HelloLayout;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.2;
 			};
 			name = Release;
 		};
@@ -584,12 +589,13 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
-				DEVELOPMENT_TEAM = UTAKMP8X5D;
+				DEVELOPMENT_TEAM = 7YKPZF3MP5;
 				INFOPLIST_FILE = HelloLayoutTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = my.hafiz.HelloLayoutTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.2;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HelloLayout.app/HelloLayout";
 			};
 			name = Debug;
@@ -600,12 +606,13 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
-				DEVELOPMENT_TEAM = UTAKMP8X5D;
+				DEVELOPMENT_TEAM = 7YKPZF3MP5;
 				INFOPLIST_FILE = HelloLayoutTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = my.hafiz.HelloLayoutTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.2;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HelloLayout.app/HelloLayout";
 			};
 			name = Release;
@@ -615,12 +622,13 @@
 			baseConfigurationReference = CF9514BAB71EBEDC20D0F13B /* Pods-HelloLayoutUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				DEVELOPMENT_TEAM = UTAKMP8X5D;
+				DEVELOPMENT_TEAM = 7YKPZF3MP5;
 				INFOPLIST_FILE = HelloLayoutUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = my.hafiz.HelloLayoutUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.2;
 				TEST_TARGET_NAME = HelloLayout;
 			};
 			name = Debug;
@@ -630,12 +638,13 @@
 			baseConfigurationReference = 9BB799927CA15349E5DBC947 /* Pods-HelloLayoutUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				DEVELOPMENT_TEAM = UTAKMP8X5D;
+				DEVELOPMENT_TEAM = 7YKPZF3MP5;
 				INFOPLIST_FILE = HelloLayoutUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = my.hafiz.HelloLayoutUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.2;
 				TEST_TARGET_NAME = HelloLayout;
 			};
 			name = Release;
